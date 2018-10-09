@@ -23,3 +23,32 @@
 msg|消息内容|必填
 title|标题内容| 默认为 "提示"
 
+### 1, ajax
+
+参数列表
+
+
+参数|意义|默认
+---|---|---
+method|类型|默认 "POST"
+url|请求地址| 必填
+dataType|返回类型| 默认 “json”,支持 json,text
+data|post请求参数|post请填写参数
+
+案例
+
+```
+ JsBridge.require("system").ajax(
+			 {
+				url:"http://api.master.bigdata_guiji.wenshi.jt/token/getToken",
+				"method":"post",
+				// dataType:"json",
+				data:{
+					phone:"zhagnsan",
+					password:"1111111",
+					imei:"333333"
+					}
+			 },function(data){
+				alert(data.body.msg);
+			});
+```
