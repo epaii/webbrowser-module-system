@@ -7,7 +7,7 @@
 ### 2，在module.json文件中增加
 
 ```
-"system":{"dll":'ext/system/System.dll',"class":"WenshiModule.SystemMoudle","methods":"alert"}
+"system":{"dll":"ext/system/System.dll","class":"WenshiModule.SystemModule","methods":"alert,ajax"}
 
 ```
 
