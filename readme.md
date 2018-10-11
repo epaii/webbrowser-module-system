@@ -7,7 +7,7 @@
 ### 2，在module.json文件中增加
 
 ```
-"system":{"dll":"ext/system/System.dll","class":"WenshiModule.SystemModule","methods":"alert,ajax"}
+"system":{"dll":"ext/system/System.dll","class":"WenshiModule.SystemModule","methods":"alert,ajax,setRunningValue,getRunningValue"}
 
 ```
 
@@ -23,7 +23,7 @@
 msg|消息内容|必填
 title|标题内容| 默认为 "提示"
 
-### 1, ajax
+### 2, ajax
 
 参数列表
 
@@ -51,4 +51,38 @@ data|post请求参数|post请填写参数
 			 },function(data){
 				alert(data.body.msg);
 			});
+```
+
+### 3, setRunningValue  设置运行时候变量，可在多html页面中共享
+
+参数列表
+
+
+参数|意义|默认
+---|---|---
+key|变量name| 必填
+value|值| 必填
+ 
+
+案例
+
+```
+ JsBridge.require("system").setRunningValue({"key":"username","value":"zhangsan"});
+```
+
+### 3, getRunningValue   
+
+参数列表
+
+
+参数|意义|默认
+---|---|---
+key|变量name| 必填
+ 
+ 
+
+案例
+
+```
+ JsBridge.require("system").getRunningValue({"key":"username"});
 ```
