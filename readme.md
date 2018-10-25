@@ -142,12 +142,11 @@ name|某块名称| 必填
 参数|意义|默认
 ---|---|---
 name|某块名称| 必填
- 
+ key|键| 必填
  
 
 案例
 
 ```
- JsBridge.require("system").getModuleConfig({"name":"system"});//方法一
-  JsBridge.require("system").getModuleConfig("system");//方法二
+ JsBridge.require("system").getPathInModuleConfig({"name":"system","key":"image_dir"});
 ```
