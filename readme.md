@@ -153,13 +153,17 @@ name|某块名称| 必填
 
 ### 7, parseHtmlToPdf   
 
+解析模板并生成pdf文件
+
 参数列表
 
 
 参数|意义|默认
 ---|---|---
-name|某块名称| 必填
- key|键| 必填
+url|本地文件地址| 必填
+ data|数据| 必填
+ toFile|pdf绝对路径|
+ pageSize|pdf大小A43|
  
 
 案例
