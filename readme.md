@@ -129,6 +129,7 @@ name|某块名称| 必填
 案例
 
 ```
- JsBridge.require("system").getRunningValue({"key":"username"});//方法一
-  JsBridge.require("system").getRunningValue("username");//方法二
+ JsBridge.require("system").getModuleConfig({"name":"system"});//方法一
+  JsBridge.require("system").getModuleConfig("system");//方法二
 ```
+
