@@ -26,8 +26,8 @@ title|标题内容| 默认为 "提示"
 案例
 
 ```
- JsBridge.require("system").getRunningValue({"msg":"这是提示消息"});//方法一
-  JsBridge.require("system").getRunningValue("这是提示消息");//方法二
+ JsBridge.require("system").alert({"msg":"这是提示消息"});//方法一
+  JsBridge.require("system").alert("这是提示消息");//方法二
 ```
 ### 2, ajax
 
