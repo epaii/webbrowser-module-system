@@ -115,7 +115,7 @@ key|变量name| 必填
 ```
 
 
-### 4, getModuleConfig   
+### 5, getModuleConfig   
 
 参数列表
 
@@ -134,7 +134,7 @@ name|某块名称| 必填
 ```
 
 
-### 4, getModuleConfig   
+### 6, getPathInModuleConfig   
 
 参数列表
 
