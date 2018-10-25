@@ -151,7 +151,7 @@ name|某块名称| 必填
  JsBridge.require("system").getPathInModuleConfig({"name":"system","key":"image_dir"});
 ```
 
-### 7, getPathInModuleConfig   
+### 7, parseHtmlToPdf   
 
 参数列表
 
