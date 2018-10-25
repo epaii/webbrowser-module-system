@@ -169,5 +169,16 @@ url|本地文件地址| 必填
 案例
 
 ```
- JsBridge.require("system").getPathInModuleConfig({"name":"system","key":"image_dir"});
+  JsBridge.parseHtmlToPdf({
+ "url":"e:/1/1.html",
+ "data":{
+	"name":"张三",
+	"age":"19sui"
+ },
+ "pageSize":"A4",
+ "toFile":"e:/1/aaaaa.pdf"
+ },function(ret){
+ alert(ret);
+ 
+ })
 ```
