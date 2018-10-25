@@ -69,7 +69,8 @@ value|值| 必填
 ```
  JsBridge.require("system").setRunningValue({"key":"username","value":"zhangsan"});//方法一
  
- JsBridge.require("system").setRunningValue({"key":"username","value":"zhangsan"});//方法一
+ JsBridge.require("system").setRunningValue({"username":"zhangsan"});//方法二
+ JsBridge.require("system").setRunningValue({"username":"zhangsan"});//方法二
 ```
 
 ### 3, getRunningValue   
