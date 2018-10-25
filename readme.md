@@ -133,3 +133,21 @@ name|某块名称| 必填
   JsBridge.require("system").getModuleConfig("system");//方法二
 ```
 
+
+### 4, getModuleConfig   
+
+参数列表
+
+
+参数|意义|默认
+---|---|---
+name|某块名称| 必填
+ 
+ 
+
+案例
+
+```
+ JsBridge.require("system").getModuleConfig({"name":"system"});//方法一
+  JsBridge.require("system").getModuleConfig("system");//方法二
+```
