@@ -70,7 +70,7 @@ value|值| 必填
  JsBridge.require("system").setRunningValue({"key":"username","value":"zhangsan"});//方法一
  
  JsBridge.require("system").setRunningValue({"username":"zhangsan"});//方法二
- JsBridge.require("system").setRunningValue({"username":"zhangsan"});//方法二
+ JsBridge.require("system").setRunningValue({"username":"zhangsan","age":"18"});//多变量设置
 ```
 
 ### 3, getRunningValue   
@@ -87,5 +87,5 @@ key|变量name| 必填
 案例
 
 ```
- JsBridge.require("system").getRunningValue({"key":"username"});
+ JsBridge.require("system").getRunningValue({"key":"username"});//方法一
 ```
