@@ -23,6 +23,12 @@
 msg|消息内容|必填
 title|标题内容| 默认为 "提示"
 
+案例
+
+```
+ JsBridge.require("system").getRunningValue({"key":"username"});//方法一
+  JsBridge.require("system").getRunningValue("username");//方法二
+```
 ### 2, ajax
 
 参数列表
