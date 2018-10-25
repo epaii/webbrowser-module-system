@@ -183,4 +183,11 @@ url|本地文件地址| 必填
  })
 ```
 
+其中1.html
+
+```
+你好{{name}},我的年龄是:{{age}},
+你好{{name}},我的年龄是:{{age}}
+```
+
 ### 8 getRootConfig,getPathInRootConfig
