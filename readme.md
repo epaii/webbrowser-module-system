@@ -114,3 +114,21 @@ key|变量name| 必填
  JsBridge.require("system").pwd();
 ```
 
+
+### 4, getModuleConfig   
+
+参数列表
+
+
+参数|意义|默认
+---|---|---
+key|变量name| 必填
+ 
+ 
+
+案例
+
+```
+ JsBridge.require("system").getRunningValue({"key":"username"});//方法一
+  JsBridge.require("system").getRunningValue("username");//方法二
+```
