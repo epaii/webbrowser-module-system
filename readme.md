@@ -150,3 +150,20 @@ name|某块名称| 必填
 ```
  JsBridge.require("system").getPathInModuleConfig({"name":"system","key":"image_dir"});
 ```
+
+### 7, getPathInModuleConfig   
+
+参数列表
+
+
+参数|意义|默认
+---|---|---
+name|某块名称| 必填
+ key|键| 必填
+ 
+
+案例
+
+```
+ JsBridge.require("system").getPathInModuleConfig({"name":"system","key":"image_dir"});
+```
