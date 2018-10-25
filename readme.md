@@ -182,3 +182,5 @@ url|本地文件地址| 必填
  
  })
 ```
+
+### 8 getRootConfig,getPathInRootConfig
